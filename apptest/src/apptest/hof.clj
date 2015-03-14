@@ -27,3 +27,13 @@
 (defn fibonacci-series
   [n]
   (take n (map first (iterate fibonacci-term [0 1]))))
+
+;;Calculate the binomial coefficient.
+(defn binomial
+  [n k]
+  (let [a (inc n)]
+    (loop [b 1
+           c 1]
+      (if (> b k)
+        c
+        (recur (inc b) (* (/ (- a b) b) c))))))
