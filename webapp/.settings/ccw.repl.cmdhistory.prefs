@@ -1,0 +1,2 @@
+cmdhistory=["(defn server (jetty/run-jetty \#'app {\:port 8080 join? false}))" "(def server (jetty/run-jetty \#'app {\:port 8080 \:join? false}))" "(in-ns)" "(all-ns)" "(def server (jetty/run-jetty \#'app {\:port 8080 \:join? false}))\\n(server)" "(def server (jetty/run-jetty \#'app {\:port 8080 \:join? false}))" "\\n(app {\:uri \\"/hello\\"})" "(+ 2 3)"]
+eclipse.preferences.version=1
